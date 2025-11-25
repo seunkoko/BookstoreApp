@@ -1,11 +1,9 @@
-# BookstoreApp
-
-## 📚 Bookstore Frontend (React + Vite)
+# 📚 BookstoreApp (React + Vite)
 
 A modern, scalable frontend built with React, Vite, TypeScript, and React Query, designed to connect to the Bookstore API backend.
 This project follows senior-level frontend architecture, including modular components, API abstraction layers, state management, caching, advanced routing, and robust testing.
 
-### 🚀 Features
+## 🚀 Features
 
 - 🔐 Authentication UI: Login, Register, Persisted Auth State
 
@@ -29,7 +27,7 @@ This project follows senior-level frontend architecture, including modular compo
 
 - 🧱 Docker-ready
 
-### 🧱 Tech Stack
+## 🧱 Tech Stack
 
 - React 18
 
@@ -49,7 +47,7 @@ This project follows senior-level frontend architecture, including modular compo
 
 - Vitest + RTL
 
-### Folder Structure
+## Folder Structure
 
 ```
 src/
@@ -70,7 +68,7 @@ src/
 
 ```
 
-### 🧪 Testing Strategy (Senior Level)
+## 🧪 Testing Strategy (Senior Level)
 
 - Unit tests for:
 
@@ -92,7 +90,7 @@ src/
 
     - Cypress
 
-### 🚀 Getting Started
+## 🚀 Getting Started
 1. Install
   ```
   npm install
@@ -110,13 +108,13 @@ src/
   npm run build
   ```
 
-### 🐳 Docker Setup
+## 🐳 Docker Setup
 ```
 docker build -t bookstoreApp .
 docker run -p 5173:80 bookstoreApp
 ```
 
-### 🧩 API Integration
+## 🧩 API Integration
 
 All backend requests are centralized in:
 
